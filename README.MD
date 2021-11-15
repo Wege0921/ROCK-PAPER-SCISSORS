@@ -1,1 +1,2 @@
-Rock, Paper, Scissors is a hand game usually played between two people, by making shapes with their hands and fingers. But now you can play with computer. 
+Rock, Paper, Scissors is a hand game usually played between two people, by making shapes with their hands and fingers. 
+Rock, paper, scissors images from vectorStock (https://www.vectorstock.com/royalty-free-vector/rock-paper-scissors-hand-gesture-vector-25169739)

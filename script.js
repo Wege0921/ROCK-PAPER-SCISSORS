@@ -11,8 +11,6 @@ function computerPlay(){
         return "scissors";
     }
 }
-
-
 function playRound(playerSelection, computerSelection){
       
 
@@ -67,8 +65,6 @@ function playRound(playerSelection, computerSelection){
     }
 
 }
-
-
          
 let playerScore = 0;
 let computerScore = 0; 
@@ -104,4 +100,4 @@ else if (playerScore < computerScore){
     }    
         
 }
-game();
+//game();

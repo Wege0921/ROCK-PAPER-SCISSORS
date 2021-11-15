@@ -1,0 +1,26 @@
+html{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    background-color: black;
+    color: #e0d56e;
+}
+h1{
+    text-align: center;
+    margin-top: 150px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    
+}
+img{
+    border-radius: 25px;
+}
