@@ -18,9 +18,37 @@ h1{
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 50px;
+    margin: 50px;
     
 }
-img{
+.images > img{
     border-radius: 25px;
+    background-color: black;
+}
+.image:hover{
+    border: 2px solid rgba(245, 198, 69, 0.7);
+    transform: scale(1.2);
+}
+.resultInfo{
+    text-align: center;
+    font-size: 30px;
+}
+#result{
+    margin: 20px 0;
+}
+.scoreBoard
+{
+    text-align: center;
+    margin: 30px 0;
+}
+#finalResult{
+    margin-bottom: 30px;
+}
+button{
+    background-color:black;
+    font-size: 30px;
+    font-family:sans-serif;
+    color:#e0d56e;
+    border-radius: 10px;
+    
 }
