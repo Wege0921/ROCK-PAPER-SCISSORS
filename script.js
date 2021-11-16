@@ -1,4 +1,3 @@
-
 const rockimg = document.getElementById('rock');
 const paperimg = document.getElementById('paper');
 const scissorsimg = document.getElementById('scissors');
@@ -116,24 +115,19 @@ if ((playerScore == 5) && (computerScore < 5)){
                  
      }
  else if ((computerScore == 5) && (playerScore < 5)){
-    
-         
-             console.log("*********YOUssors cuts 
- else if ((computerScore == 5) && (playerScore == 5)){
-    
-         
-    console.log("*********YOU TIED!*********");
-    finalResult.textContent = "*********YOU TIED!*********";
-    resetScore();
-}
+        
+        console.log("*********YOU LOSE!*********");  
+        finalResult.textContent ="*********YOU LOSE!*********";   
+        resetScore();    
+ }
  else{
      return;
  }
+}
 function resetScore(){
 
-    computerScore = 0;
-    playerScore = 0;
-    computer_Score.textContent = 0;
-    player_Score.textContent = 0;
-}
- } 
+        computerScore = 0;
+        playerScore = 0;
+        computer_Score.textContent = 0;
+        player_Score.textContent = 0;
+    }
