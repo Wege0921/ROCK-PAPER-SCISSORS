@@ -38,8 +38,10 @@ function computerPlay(){
 }
 
 function playRound(playerSelection){
-    
+
     let computerSelection = computerPlay();
+    
+   
 
     if ((playerSelection == "rock" )&& (computerSelection == "paper") ){
         computerScore +=1;
@@ -89,18 +91,19 @@ function playRound(playerSelection){
         result.textContent = "You Won! Scissors cuts Paper";
     }
     
-    else if (playerSelection===computerSelection){
-   
+    else if (playerSelection==computerSelection){
+        playerScore +=0;
+        computerScore +=0;
+        score();
         computer_Score.textContent = computerScore;
         player_Score.textContent = playerScore;
         console.log ('Your Score is: '+ playerScore + '  ' + 'Computer Score is: '+ computerScore);
         result.textContent ="You Tied";
 
+    } else {
+        return;
     }
-    else{
-          return;
-    }
-
+    
 }
 
 function score(){
@@ -115,10 +118,7 @@ if ((playerScore == 5) && (computerScore < 5)){
  else if ((computerScore == 5) && (playerScore < 5)){
     
          
-             console.log("*********YOU LOSE!*********");
-             finalResult.textContent = "*********YOU LOSE!*********";
-             resetScore();
-}
+             console.log("*********YOUssors cuts 
  else if ((computerScore == 5) && (playerScore == 5)){
     
          
@@ -137,9 +137,3 @@ function resetScore(){
     player_Score.textContent = 0;
 }
  } 
-
-function game(){
-        playRound();
-
-}
-game();
